@@ -1,0 +1,33 @@
+*{
+    font-family:sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botton{
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row{
+    margin: 5px 0px;
+}
+.row .input{
+    width: 220px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 22px;
+}
+.Clear button{
+   
+    border: 2px solid black;
+    font-size: 22px;
+    border-radius: 9px;
+    padding: 12px 12px;
+}
